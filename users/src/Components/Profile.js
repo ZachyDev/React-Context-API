@@ -1,6 +1,7 @@
+import { useContext } from "react"
 import { LoginContext } from "../Contexts/LoginContext"
-
 function Profile() {
+  const { username } = useContext(LoginContext);
   return (
     <>
         <h1>Profile</h1>
