@@ -1,0 +1,27 @@
+.login {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(12, 12, 21);
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+.login h3 {
+    color: aliceblue;
+    font-size: 25px;
+}
+.login input {
+    padding: 10px;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+}
+.login button {
+    padding: 15px 40px;
+}
+.login p {
+    color: wheat;
+}
