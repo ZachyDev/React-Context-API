@@ -1,8 +1,9 @@
 import React from 'react'
-import { useState } from 'react';
+import { useContext } from 'react';
 import './style.css'
 import { LoginContext } from '../Contexts/LoginContext';
 function Login() {
+    const { setUsername, setShowProfile } = useContext(LoginContext);
     const handleformChange = (event) => {
         setUsername(event.target.value);
     }
